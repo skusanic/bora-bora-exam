@@ -1,0 +1,7 @@
+body {
+  background-image: url("./img/Bora-Bora.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
