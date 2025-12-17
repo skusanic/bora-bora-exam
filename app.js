@@ -10,5 +10,5 @@ router.get("/", function (req, res) {
 app.use("/img", express.static(__dirname + "/img"));
 app.use("/", router);
 
-app.listen(process.env.port || 3000);
+app.listen(process.env.PORT || 3000);
 console.log("Running at Port 3000");
